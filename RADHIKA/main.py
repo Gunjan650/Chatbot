@@ -13,7 +13,7 @@ import requests
 # Environment variables
 API_ID = os.environ.get("API_ID", "20948838")
 API_HASH = os.environ.get("API_HASH", "0d81af6bc752fd069824375a9d668839")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7242058454:AAH24Hp_LNk-QO422ERYmySTnrUn3rYn5A8")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7689133579:AAGvDudnSfycoP605ep5i3ldWmTyhtUkLqk")
 MONGO_URL = os.environ.get("MONGO_URL", "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 # MongoDB connection
@@ -35,7 +35,7 @@ RADHIKA = Client(
 async def start(client: Client, message: Message):
     keyboard = [
         [
-            InlineKeyboardButton("Join 🤒", url="https://t.me/BABY09_WORLD")
+            InlineKeyboardButton("Join 🤒", url="https://t.me/baby_x_music_bot")
         ]
     ]
     await message.reply(
