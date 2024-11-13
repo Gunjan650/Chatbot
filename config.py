@@ -4,16 +4,16 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", "21803165"))
-API_HASH = getenv("API_HASH", "05e5e695feb30e25bef47484cc006da7")
-BOT_TOKEN = getenv("BOT_TOKEN", "7242058454:AAGKgAot4cCGme5FDZ8VBStYpGvjG3h4nnA")
-OWNER_ID = int(getenv("OWNER_ID", "7403621976"))
+API_ID = int(getenv("API_ID", "20948838"))
+API_HASH = getenv("API_HASH", "0d81af6bc752fd069824375a9d668839")
+BOT_TOKEN = getenv("BOT_TOKEN", "7689133579:AAGvDudnSfycoP605ep5i3ldWmTyhtUkLqk")
+OWNER_ID = int(getenv("OWNER_ID", "7748155004"))
 MONGO_URL = getenv("MONGO_URL", "mongodb+srv://TEAMBABY01:UTTAMRATHORE09@cluster0.vmjl9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 SUPPORT_GRP = getenv("SUPPORT_GRP", "+OL6jdTL7JAJjYzVl")
 UPDATE_CHNL = getenv("UPDATE_CHNL", "BABY09_WORLD")
-MUSIC = getenv("MUSIC", "BABY_MUSIC09_BOT")
+MUSIC = getenv("MUSIC", "baby_x_music_bot")
 REPO = getenv("REPO", " RADHIKA")
-OWNER_USERNAME = getenv("OWNER_USERNAME", "UTTAM470")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "II_APNA_GUNJAN_II")
 
 # Random Start Images
 IMG = [
